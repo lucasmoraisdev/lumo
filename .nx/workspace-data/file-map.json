@@ -1,0 +1,128 @@
+{
+  "version": "6.0",
+  "nxVersion": "21.0.3",
+  "pathMappings": {
+    "@app/core": [
+      "libs/core/src"
+    ],
+    "@app/core/*": [
+      "libs/core/src/*"
+    ],
+    "@app/data": [
+      "libs/data/src"
+    ],
+    "@app/data/*": [
+      "libs/data/src/*"
+    ],
+    "@app/domain": [
+      "libs/domain/src"
+    ],
+    "@app/domain/*": [
+      "libs/domain/src/*"
+    ],
+    "@app/infrastructure": [
+      "libs/infrastructure/src"
+    ],
+    "@app/infrastructure/*": [
+      "libs/infrastructure/src/*"
+    ]
+  },
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": "libs/infrastructure/src/index.ts",
+        "hash": "18379406390226173687"
+      },
+      {
+        "file": "LICENSE",
+        "hash": "5829983762857751999"
+      },
+      {
+        "file": "package.json",
+        "hash": "7968176176969663138"
+      },
+      {
+        "file": "libs/domain/src/index.ts",
+        "hash": "18379406390226173687"
+      },
+      {
+        "file": ".nx/workspace-data/lockfile.hash",
+        "hash": "1516096864905985812"
+      },
+      {
+        "file": "nest-cli.json",
+        "hash": "14218500371927597930"
+      },
+      {
+        "file": "libs/core/tsconfig.lib.json",
+        "hash": "9456827458711885603"
+      },
+      {
+        "file": "libs/data/src/index.ts",
+        "hash": "18379406390226173687"
+      },
+      {
+        "file": "apps/api/.env.example",
+        "hash": "12991352428685780802"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "15485204073767469922"
+      },
+      {
+        "file": "README.md",
+        "hash": "1541353514422943915"
+      },
+      {
+        "file": "libs/data/tsconfig.lib.json",
+        "hash": "17235349710038609539"
+      },
+      {
+        "file": "libs/core/src/index.ts",
+        "hash": "18379406390226173687"
+      },
+      {
+        "file": ".nx/workspace-data/project-graph.json",
+        "hash": "15260291748764342410"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "3889052206156316698"
+      },
+      {
+        "file": ".nx/workspace-data/d/daemon.log",
+        "hash": "12791645844508180920"
+      },
+      {
+        "file": ".nx/workspace-data/source-maps.json",
+        "hash": "1389868326933519382"
+      },
+      {
+        "file": ".nx/workspace-data/file-map.json",
+        "hash": "6642719037975269589"
+      },
+      {
+        "file": ".git/config",
+        "hash": "9874883450031568305"
+      },
+      {
+        "file": ".nx/workspace-data/parsed-lock-file.json",
+        "hash": "14309102662819926196"
+      },
+      {
+        "file": "libs/domain/tsconfig.lib.json",
+        "hash": "5954747820085319975"
+      },
+      {
+        "file": "nx.json",
+        "hash": "17837818348201064641"
+      },
+      {
+        "file": "libs/infrastructure/tsconfig.lib.json",
+        "hash": "9456827458711885603"
+      }
+    ],
+    "projectFileMap": {}
+  }
+}
