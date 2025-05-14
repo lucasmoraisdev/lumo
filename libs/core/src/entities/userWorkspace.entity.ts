@@ -10,13 +10,13 @@ export class UserToWorkspaces {
   @PrimaryGeneratedColumn('uuid')
   id: string;
 
-  @Column({ length: 100 })
+  @Column()
   user_id: string;
 
-  @Column({ length: 100 })
+  @Column()
   workspace_id: string;
 
-  @Column({ length: 100 })
+  @Column()
   role_id: string;
 
   @CreateDateColumn({ name: 'joined_at', default: () => 'CURRENT_TIMESTAMP' })

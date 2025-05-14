@@ -6,7 +6,7 @@
   "root": ".",
   "compilerOptions": {
     "webpack": true,
-    "tsConfigPath": "tsconfig.json"
+    "tsConfigPath": "tsconfig.build.json"
   },
   "projects": {
     "api": {

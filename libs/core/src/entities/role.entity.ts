@@ -7,7 +7,7 @@ import { RoleEnum } from '../enums/role.enum';
 
 @Entity('roles')
 export class Role extends BaseEntity {
-  @Column({ length: 100, type: 'enum', enum: RoleEnum })
+  @Column({ type: 'enum', enum: RoleEnum })
   @IsNotEmpty({ message: 'Role name is required' })
   name: string;
 
