@@ -1,9 +1,12 @@
 import { Module } from '@nestjs/common';
 import { JwtModule as NestJwtModule } from '@nestjs/jwt';
 import { ConfigModule, ConfigService } from '@nestjs/config';
+import { JwtTokenService } from './jwt.service';
+import { JwtStrategy } from './jwt.strategy';
 
 @Module({
   imports: [
+    ConfigModule,
     NestJwtModule.registerAsync({
       imports: [ConfigModule],
       inject: [ConfigService],
@@ -15,6 +18,7 @@ import { ConfigModule, ConfigService } from '@nestjs/config';
       }),
     }),
   ],
+  providers: [JwtTokenService, JwtStrategy],
   exports: [NestJwtModule],
 })
 export class JwtAuthModule {}

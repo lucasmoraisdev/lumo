@@ -12,11 +12,6 @@ export class Workspace extends BaseEntity {
   @ManyToOne(() => User, user => user.id, { nullable: false})
   owner_id: User;
 
-  @Column({ length: 100 })
-  @IsNotEmpty({ message: 'The password is required' })
-  @IsString()
-  password_hash: string;
-
   @OneToMany(() => UserToWorkspaces, userToWorkspaces => userToWorkspaces.workspace_id)
   user_workspaces: UserToWorkspaces[];
 }

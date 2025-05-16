@@ -2,8 +2,12 @@
   "extends": "../../tsconfig.json",
   "compilerOptions": {
     "outDir": "../../dist/out-tsc",
-    "rootDir": "./src"
+    "rootDir": "../../",
+    "baseUrl": "../../"
   },
-  "include": ["src/**/*"],
+  "include": [
+    "apps/api/src/**/*",
+    "libs/**/*"
+  ],
   "exclude": ["node_modules", "dist"]
 }

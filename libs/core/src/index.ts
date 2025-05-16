@@ -5,3 +5,5 @@ export * from './entities/userWorkspace.entity';
 export * from './entities/verificationToken.entity';
 export * from './entities/workspace.entity';
 export * from './enums/role.enum';
+export * from './interceptors/response.interceptor';
+export * from './filters/exceptions.filter';
